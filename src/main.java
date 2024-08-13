@@ -1,3 +1,4 @@
+import models.Aves;
 import models.Mammalia;
 
 public class main {
@@ -7,5 +8,13 @@ public class main {
 
         Mammalia dog = new Mammalia();
         dog.getBye();
+
+        Aves pigeon = new Aves();
+        pigeon.getHello();
+
+        Aves sparrow = new Aves();
+        sparrow.getBye();
     }
 }
+
+
